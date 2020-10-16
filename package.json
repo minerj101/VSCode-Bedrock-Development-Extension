@@ -68,6 +68,14 @@
     "type": "git"
   },
   "contributes": {
+    "commands": [
+      {
+        "category": "Minecraft",
+        "title": "Import minecraft bedrock errors",
+        "command": "bc.minecraft.errors.import",
+        "enablement": "isWindows"
+      }
+    ],
     "configuration": [
       {
         "title": "Minecraft bedrock language configuration",

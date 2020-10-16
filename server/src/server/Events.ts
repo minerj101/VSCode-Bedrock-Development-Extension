@@ -56,7 +56,7 @@ export function setEvents() {
   Manager.Documents.onDidSave(OndDocumentChangedAsync);
 
   // This handler provides commands
-  //Manager.Connection.onExecuteCommand(OnCommandRequestAsync);
+  Manager.Connection.onExecuteCommand(OnCommandRequestAsync);
 
   // This handler provides completion items.
   Manager.Connection.onCompletion(OnCompletionRequestAsync);
