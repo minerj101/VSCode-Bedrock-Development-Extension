@@ -8,11 +8,12 @@ It's recommended you use the Dark+ theme for the best color highlighting. This p
 - [VSCode-Bedrock-Development-Extension](#vscode-bedrock-development-extension)
   - [Content](#content)
   - [Features](#features)
-    - [Mcfunction](#mcfunction)
+    - [File icons](#file-icons)
     - [JSON](#json)
       - [Molang](#molang)
       - [Validation](#validation)
     - [Language files](#language-files)
+    - [Mcfunction](#mcfunction)
     - [Molang](#molang-1)
   - [Commands](#commands)
   - [Extension Settings](#extension-settings)
@@ -20,16 +21,9 @@ It's recommended you use the Dark+ theme for the best color highlighting. This p
   
 ## Features
 
-### Mcfunction
-This plugin provides support for the `.mcfunction` files. The following features are provided:
-- [Code completion](documentation/completion/Mcfunctions.md).
-- Code formatting.
-- Diagnostics.
-- Go to definition.
-- Regions
-- Symbols.
-- Syntax highlighting.
-- [Validation files for diagnosing](documentation/Commands.md).
+### File icons
+
+File icon themes is provides to give each different section of minecraft its own icons. these are designed by Smashicons from Flaticon.
 
 ---
 ### JSON
@@ -87,6 +81,18 @@ This plugin provides support for `.lang` files. The following features are provi
 - Regions
 - Symbols
 - Syntax highlighting
+
+---
+### Mcfunction
+This plugin provides support for the `.mcfunction` files. The following features are provided:
+- [Code completion](documentation/completion/Mcfunctions.md).
+- Code formatting.
+- Diagnostics.
+- Go to definition.
+- Regions
+- Symbols.
+- Syntax highlighting.
+- [Validation files for diagnosing](documentation/Commands.md).
 
 ---
 ### Molang

@@ -240,6 +240,13 @@
         "category": "Blockception"
       }
     ],
+    "iconThemes": [
+      {
+        "id": "bc-minecraft-icons",
+        "label": "Blockception: Minecraft icons theme.",
+        "path": "./minecraft/file icons/icon-theme.json"
+      }
+    ],
     "languages": [
       {
         "id": "bc-minecraft-language",
@@ -311,7 +318,7 @@
     "jsonValidation": [
       {
         "fileMatch": "**/minecraft-validation.json",
-        "url": "./minecraft-schemas/minecraft-validation.json"
+        "url": "./minecraft/schemas/minecraft-validation.json"
       },
       {
         "fileMatch": "*/skin_pack/skins.json",
